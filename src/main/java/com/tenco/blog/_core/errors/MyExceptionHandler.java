@@ -107,4 +107,5 @@ public class MyExceptionHandler {
         request.setAttribute("msg", "시스템 오류 발생, 관리자에게 문의 하세요");
         return "err/500";
     }
+
 }
